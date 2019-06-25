@@ -1,0 +1,16 @@
+body { margin: 0; }
+
+.script .ExecuteLePendu { top: 0px; position: absolute; z-index: 2; -webkit-box-shadow: inset 0px 1px 0px 0px #cf866c; box-shadow: inset 0px 1px 0px 0px #cf866c; background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d0451b), to(#bc3315)); background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%); background-color: #d0451b; border-radius: 3px; border: 1px solid #942911; display: inline-block; cursor: pointer; color: #ffffff; font-family: Arial; font-size: 13px; padding: 6px 24px; text-decoration: none; text-shadow: 0px 1px 0px #854629; width: 100%; }
+
+.script .result { position: absolute; top: -30px; -webkit-transition: top 1s, color 1s; transition: top 1s, color 1s; z-index: 1; font-size: 250%; color: white; text-shadow: 0px 1px 0px black; }
+
+.script:hover .ExecuteLePendu { background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #bc3315), to(#d0451b)); background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%); background-color: #bc3315; }
+
+.script:hover .result { position: absolute; top: 85px; color: red; }
+
+.script:hover .result:nth-child(2) { position: absolute; top: 35px; color: green; }
+
+.console_affiche { background-color: black; color: white; position: absolute; top: 100px; width: 500px; }
+
+.console_affiche::first-letter { color: green; font-size: 20px; font-weight: bold; }
+/*# sourceMappingURL=le_jeu_du_pendu.css.map */
